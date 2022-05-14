@@ -2,6 +2,8 @@
 
 A simple project demonstrating how to setup and use sessions with a node-express application. This app uses MongoDB Atlas as a session store but can either be changed to use a local instance of Mongo DB (if you don't have Atlas) or to another provider, like Redis.
 
+Supporting repository for my medium article on [Session Management-in-a-NodeJS-Express-App-with-MongoDB]
+
 ## Environment Variables
 
 If you do choose to use MongoDB as your session store, make sure to create and add the following properties to either an `.env` file or directly to the code. Both these environment variables are used in the `session.ts` file.
@@ -24,3 +26,5 @@ SESSION_SECRET: 217389dfb3461f357204b9a189833935ac273f97
 2. Express.js
 3. MongoDB Atlas
 4. TypeScript
+
+[Session Management-in-a-NodeJS-Express-App-with-MongoDB]: https://medium.com/@aakash.jha1103/session-management-in-a-nodejs-express-app-with-mongodb-19f52c392dad
