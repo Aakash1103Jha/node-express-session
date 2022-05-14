@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ES5",
+		"module": "commonjs",
+		"rootDir": "./src/",
+		"moduleResolution": "node",
+		"declaration": true,
+		"removeComments": true,
+		"declarationDir": "./dist/types",
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"strict": true,
+		"skipLibCheck": true,
+		"noImplicitAny": true,
+		"outDir": "./dist"
+	},
+	"exclude": ["**/*node_modules"],
+	"include": ["./src/"]
+}
